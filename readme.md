@@ -1,4 +1,4 @@
-STEPS FOR CONVERTING PDFS TO SHAPEFILE
+STEPS FOR CONVERTING PDFS TO SHAPEFILES
 ======================================
 
 ## Assumptions
@@ -23,7 +23,7 @@ You're running Mac OSX 10.9 and have installed [**Inkscape**](http://www.inkscap
 * Save file as `raw_geojson/{{division}}.geojson`.
 
 ## 5. Convert Divison Shapefiles to GEOJSON
-* Open `raw_shp_poly/{{division}}/{{division}}.shp` in [**QGIS**](http://www.qgis.org/).
+* Open `divisions_shp/{{division}}/{{division}}.shp` in [**QGIS**](http://www.qgis.org/).
 * Save file as `divisions_geojson/{{division}}.geojson`.
 
 ## 6. Rescale GEOJSON POLYGONS
